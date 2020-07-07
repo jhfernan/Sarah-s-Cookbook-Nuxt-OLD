@@ -60,7 +60,13 @@ export default {
 	modules: [
 		// Doc: https://axios.nuxtjs.org/usage
 		'@nuxtjs/axios',
+		'@nuxtjs/firebase'
 	],
+
+	firebase: {
+		// options
+	},
+
 	// Axios module configuration
 	// See https://axios.nuxtjs.org/options
 	axios: {
