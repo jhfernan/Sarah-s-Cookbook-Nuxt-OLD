@@ -1,19 +1,22 @@
 {
-  "name": "web_app",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "export": "nuxt export",
-    "serve": "nuxt serve"
-  },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.11.0",
-    "nuxt": "^2.13.0"
-  },
-  "devDependencies": {
-    "@nuxtjs/vuetify": "^1.11.2"
-  }
+	"name": "SarahsCookbook",
+	"version": "1.0.0",
+	"description": "Front End of Sarah Cookbook App",
+	"private": true,
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"export": "nuxt export",
+		"serve": "nuxt serve"
+	},
+	"dependencies": {
+		"@nuxtjs/axios": "^5.11.0",
+		"@nuxtjs/firebase": "^6.1.0",
+		"nuxt": "^2.13.0",
+		"redirect-ssl": "^2.0.0"
+	},
+	"devDependencies": {
+		"@nuxtjs/vuetify": "^1.11.2"
+	}
 }
